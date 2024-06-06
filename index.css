@@ -1,0 +1,25 @@
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.list-item {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 400;
+}
+.btn-1 {
+    padding: 9px 11px;
+    cursor: grab;
+
+}
