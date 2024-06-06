@@ -1,14 +1,19 @@
+header {
+   background-image: url(pic (1).png);
+}
 .nav-container {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    
+    justify-content: space-between;
+}
+.logo {
+    margin-right: 220px;
 }
 .list-item {
     display: flex;
     list-style: none;
-    gap: 20px;
     align-items: center;
+    margin-right: 60px;
 }
 
 nav a {
@@ -17,9 +22,11 @@ nav a {
     cursor: pointer;
     font-size: 17px;
     font-weight: 400;
+    margin-right: 60px;
 }
 .btn-1 {
     padding: 9px 11px;
     cursor: grab;
+    margin-right: 60px;
 
 }
