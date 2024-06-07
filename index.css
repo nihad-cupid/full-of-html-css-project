@@ -1,5 +1,15 @@
-header {
-   background-image: url(pic (1).png);
+body{
+    margin: 0px 200px ;
+}
+/* header css start */
+.header {
+    /* background-image: url(./img/pic\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    height: 500px;
+    width: 500px; */
+   
 }
 .nav-container {
     display: flex;
@@ -29,4 +39,25 @@ nav a {
     cursor: grab;
     margin-right: 60px;
 
+}
+/* nav bar end */
+.title-1 {
+    margin-top: 112px;
+    color: rgb(223, 105, 81);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.title-2 {
+    color: rgb(24, 30, 75);
+    font-size: 84px;
+    font-weight: 700;
+    text-align: left;
+}
+.banner-container-2 {
+    display: flex;
+    align-items: center;
 }
